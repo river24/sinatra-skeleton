@@ -1,0 +1,22 @@
+development:
+  adapter: 'sqlite3'
+  database: 'db/development.db'
+
+test:
+  adapter: 'sqlite3'
+  database: 'db/test.db'
+
+staging:
+  adapter: 'mysql2'
+  host: '127.0.0.1'
+  username: 'staging'
+  password: 'staging'
+  database: 'staging'
+
+production:
+  adapter: 'mysql2'
+  host: '127.0.0.1'
+  username: 'production'
+  password: 'production'
+  database: 'production'
+

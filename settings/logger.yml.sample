@@ -1,0 +1,16 @@
+development:
+  app_logger_level: 0
+  db_logger_level: 0
+
+test:
+  app_logger_level: 1
+  db_logger_level: 1
+
+staging:
+  app_logger_level: 2
+  db_logger_level: 2
+
+production:
+  app_logger_level: 3
+  db_logger_level: 3
+
